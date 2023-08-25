@@ -1,2 +1,2 @@
-i just upload my random projects to here <br/> <br/>
-![qq](./IMG_1525.jpeg)
+# yooooo
+well in this branch im just uploading some random stuff
