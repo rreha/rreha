@@ -1,10 +1,31 @@
- body {
-     background-color: rgb(0, 128, 128);
-     font: normal 15px Verdana;
-    /*background-image: url('img_girl.jpg'); */
-     /*background-repeat: no-repeat;*/
-    /*background-attachment: fixed;*/
-     /*background-size: cover;*/
+@keyframes bgcolor {
+    0% {
+        background-color: rgb(0, 128, 128)
+    }
+
+    25% {
+        background-color: rgb(149, 125, 173)
+    }
+
+    50% {
+        background-color: rgb(255, 223, 211)
+    }
+
+    75% {
+        background-color: rgb(250,255,199)
+    }
+
+    100% {
+        background-color: rgb(255, 255, 255)
+    }
+}
+
+body { /*stole from stackoverflow.com/questions/43371912/how-to-make-an-html-css-js-color-changing-background-like-kahoot-it-has zaxd*/
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+   -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 p {
@@ -21,4 +42,12 @@ text-align: center
 
 h3 {
 text-align: center
+}
+
+a:link, a:visited {
+  color: gray
+}
+
+a:hover, a:active {
+  color: rgb(248, 128, 158);
 }
