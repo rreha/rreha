@@ -1,22 +1,22 @@
 @keyframes bgcolor {
     0% {
-        background-color: rgb(0, 128, 128)
+        background-color: rgb(0, 128, 128);
     }
 
     25% {
-        background-color: rgb(149, 125, 173)
+        background-color: rgb(149, 125, 173);
     }
 
     50% {
-        background-color: rgb(255, 223, 211)
+        background-color: rgb(255, 223, 211);
     }
 
     75% {
-        background-color: rgb(250,255,199)
+        background-color: rgb(250,255,199);
     }
 
     100% {
-        background-color: rgb(255, 255, 255)
+        background-color: rgb(255, 255, 255);
     }
 }
 
