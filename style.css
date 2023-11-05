@@ -20,7 +20,7 @@ text-align: center
 }
 
 a:link, a:visited {
-  color: gray
+  color: rgb(192, 192, 192);
 }
 
 a:hover, a:active {
