@@ -26,9 +26,9 @@ text-align: center
 }
 
 a:link, a:visited {
-  color: rgb(154, 205, 50);
+  color: rgb(149, 125, 173);
 }
 
 a:hover, a:active {
-  color: rgb(149, 125, 173);
+  color: rgb(154, 205, 50);
 }
