@@ -1,10 +1,11 @@
 body { /*cant cook* :sung*/
     font-family: Verdana, Tahoma, sans-serif;
+    background-color: black
     background-image:
-      linear-gradient(45deg, #cedbf0 25%, transparent 25%), 
-      linear-gradient(135deg, #cedbf0 25%, transparent 25%),
-      linear-gradient(45deg, transparent 75%, #cedbf0 75%),
-      linear-gradient(135deg, transparent 75%, #cedbf0 75%);
+      linear-gradient(45deg, #dccef0 25%, transparent 25%), 
+      linear-gradient(135deg, #dccef0 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, #dccef0 75%),
+      linear-gradient(135deg, transparent 75%, #dccef0 75%);
     background-size:20px 20px; /* square size */
     background-position:0 0, 10px 0, 10px -10px, 0px 10px; /* 1/2 of square size */
     -webkit-backdrop-filter: blur(10px) saturate(70%);
