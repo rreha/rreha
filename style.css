@@ -18,6 +18,37 @@ body { /*cant cook* :sung*/
   width: 50%;
 }
 
+.centericon { 
+  display: flex;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+} 
+
+.fa {
+  transition: 0.1s;
+}
+
+.fa:hover, .fa:active {
+  color: rgb(229, 228, 226);
+  animation-fill-mode: both;
+  animation-duration: 3s;
+  animation-name: shadow-pop-tr;
+  animation-iteration-count: 1;
+  padding: 3px 4px;
+  border-radius: 3px;
+  background-color: black;
+  transition: 0.1s;
+}
+
+.fa-twitter {
+  color: black;
+}
+
+.fa-github {
+    color: black;
+}
+
 .shadow-pop-tr {
 	-webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 	        animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
@@ -72,17 +103,12 @@ text-align: center
 a:link, a:visited {
   color: rgb(59, 70, 84);
   text-decoration: none;
-  transition: 0.1s;
+  transition: 0.5s;
 }
 
 a:hover, a:active {
-  padding: 3px 4px;
-  border-radius: 3px;
-  font-weight: bold;
-  background-color: black;
   color: rgb(229, 228, 226);
+  font-weight: bold;
   text-decoration: none;
-  animation-duration: 3s;
-  animation-name: shadow-pop-tr;
-  animation-iteration-count: infinite;
+  transition: 0.5s;
 }
