@@ -7,3 +7,7 @@
   <img src="https://img.shields.io/badge/c_lover-545c66?logo=c">
   <img src="https://img.shields.io/badge/vscode_user-007ACC?logo=visualstudiocode">
 </p>
+
+<p align="center">
+    <img src="https://github.com/rreha/rreha/blob/main/dc7.jpg" width=750 height=200>
+</p>
